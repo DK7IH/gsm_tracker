@@ -1032,7 +1032,7 @@ int main(void)
 			//Number
 			strcpy(msg_usart1_tx, (char*)"AT+CMGS=");
 			strcat(msg_usart1_tx, str_quot);
-			strcat(msg_usart1_tx, "004917634302919");
+			strcat(msg_usart1_tx, "004917612345678");
 			strcat(msg_usart1_tx, str_quot);
 			strcat(msg_usart1_tx, str_crlf);
             usart1_send(msg_usart1_tx);
